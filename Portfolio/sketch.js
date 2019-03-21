@@ -110,7 +110,7 @@ function switchSeite(richtung, vonwo) {
 
     const aboutText = '<h1>About Me</h1><img src="assets/Strich%20main.png" id="strich"><div id="story"><p>Meine Story</p></div>';
 
-    const contactText = '<h1 style="font-size: 97px;">Feel free to contact me</h1><img src="assets/Strich%20main.png" id="strich"><div id="formemail"><form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify><p><label>Your Name: <br><input type="text" name="name" /></label></p><p><label>Your Email: <br><input type="email" name="email" /></label></p><p><label>Message: <br><textarea name="message"></textarea></label></p><p><button type="submit">Send</button></p></form></div><div id="faq">socialmedia</div>';
+    const contactText = '<h1 style="font-size: 97px;">Feel free to contact me</h1><img src="assets/Strich%20main.png" id="strich"><div id="formemail"><form name="contact" method="POST" netlify><p><label>Your Name: <br><input type="text" name="name" /></label></p><p><label>Your Email: <br><input type="email" name="email" /></label></p><p><label>Message: <br><textarea name="message"></textarea></label></p><p><button type="submit">Send</button></p></form></div><div id="faq">socialmedia</div>';
 
     switch (seite) {
         case "home":
