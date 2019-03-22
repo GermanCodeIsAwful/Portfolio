@@ -350,7 +350,7 @@ const navSlide = () => {
 }
 
 navSlide();
-//start();
+start();
 
 function start() {
     console.log("jo");
