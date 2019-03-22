@@ -355,8 +355,8 @@ start();
 function start() {
     console.log("jo");
     seite = "home";
-    $('#erster').html(homeText);
     $('#erster').html(worksText);
+    $('#erster').html(homeText);
     document.getElementById("erster").style.opacity = "1";
 }
 
