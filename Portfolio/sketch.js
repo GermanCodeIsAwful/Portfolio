@@ -361,10 +361,10 @@ function start() {
 }
 //----------------------
 function githubportfolio() {
-    this.window.location.href = "bemarchau.de";
+    this.window.location.href = "https://github.com/GermanCodeIsAwful/Portfolio/tree/master/Portfolio";
 }
 function demoportfolio() {
-    this.window.location.href = "https://github.com/GermanCodeIsAwful/Portfolio/tree/master/Portfolio";
+    this.window.location.href = "bemarchau.de";
 }
 //-----------------------
 
